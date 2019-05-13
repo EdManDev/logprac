@@ -46,6 +46,19 @@ if (isset($_POST['submit'])) {
     define('DB_PASS','');
     define('DB_NAME','authcoursetwo');
 
+
+    // define( 'DB_NAME', 'wordpress' );
+    // /** MySQL database username */
+    // define( 'DB_USER', 'root' );
+    // /** MySQL database password */
+    // define( 'DB_PASSWORD', '' );
+    // /** MySQL hostname */
+    // define( 'DB_HOST', 'localhost' );
+    // /** Database Charset to use in creating database tables. */
+    // define( 'DB_CHARSET', 'utf8' );
+    // /** The Database Collate type. Don't change this if in doubt. */
+    // define( 'DB_COLLATE', '' );
+
     // object of mysql
     $objDB= new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 
